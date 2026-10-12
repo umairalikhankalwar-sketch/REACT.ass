@@ -1,0 +1,150 @@
+
+.about {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background: #fff8fb;
+}
+
+.about-hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #ffe4ec, #fff8fb);
+}
+
+.about-hero h1 {
+  color: #b83265;
+  font-size: 38px;
+  margin-bottom: 15px;
+}
+
+.about-hero p {
+  font-size: 18px;
+  color: #666;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 60px 8%;
+}
+
+.about-image {
+  flex: 1;
+}
+
+.about-image img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px #0002;
+}
+
+.about-text {
+  flex: 1;
+}
+
+.about-text h2 {
+  color: #b83265;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.about-mission {
+  text-align: center;
+  padding: 50px 8%;
+  background: #fff0f5;
+}
+
+.about-mission h2 {
+  color: #b83265;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.about-mission > p {
+  max-width: 700px;
+  margin: 0 auto 35px;
+  line-height: 1.8;
+  color: #555;
+}
+
+.about-cards {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.about-card {
+  flex: 1;
+  min-width: 200px;
+  padding: 25px 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px #0001;
+  transition: 0.3s;
+}
+
+.about-card:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 8px 20px #b8326530;
+}
+
+.about-card h3 {
+  color: #b83265;
+  margin-bottom: 15px;
+}
+
+.about-card p {
+  color: #666;
+  line-height: 1.7;
+}
+
+.about-footer {
+  background: #b83265;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.about-footer p {
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .about-hero h1 {
+    font-size: 29px;
+  }
+
+  .about-content {
+    flex-direction: column;
+    padding: 35px 6%;
+  }
+
+  .about-image img {
+    height: 280px;
+  }
+
+  .about-text h2,
+  .about-mission h2 {
+    font-size: 25px;
+  }
+
+  .about-cards {
+    flex-direction: column;
+  }
+
+  .about-card {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}

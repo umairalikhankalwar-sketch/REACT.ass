@@ -1,0 +1,143 @@
+
+.contact {
+  font-family: Arial, sans-serif;
+  background: #fff8fb;
+  color: #333;
+}
+
+.contact-header {
+  text-align: center;
+  padding: 50px 20px;
+  background: linear-gradient(135deg, #ffe4ec, #fff8fb);
+}
+
+.contact-header h1 {
+  color: #b83265;
+  font-size: 38px;
+  margin-bottom: 15px;
+}
+
+.contact-header p {
+  color: #666;
+  font-size: 17px;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 50px 8%;
+}
+
+.contact-info {
+  flex: 1;
+  padding: 25px;
+}
+
+.contact-info h2,
+.contact-form h2 {
+  color: #b83265;
+  margin-bottom: 20px;
+}
+
+.contact-info > p {
+  line-height: 1.7;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.contact-detail {
+  margin-bottom: 25px;
+}
+
+.contact-detail h3 {
+  color: #b83265;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.contact-detail p {
+  color: #555;
+  overflow-wrap: anywhere;
+}
+
+.contact-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px #b8326515;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 13px;
+  border: 1px solid #e5b5c7;
+  border-radius: 6px;
+  font-size: 15px;
+  font-family: Arial, sans-serif;
+  outline: none;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #b83265;
+  box-shadow: 0 0 5px #b8326540;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-form button {
+  background: #b83265;
+  color: white;
+  border: none;
+  padding: 14px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  background: #8f204c;
+  transform: translateY(-2px);
+}
+
+.contact-footer {
+  background: #b83265;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.contact-footer p {
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .contact-header h1 {
+    font-size: 30px;
+  }
+
+  .contact-container {
+    flex-direction: column;
+    padding: 30px 6%;
+    gap: 20px;
+  }
+
+  .contact-info {
+    padding: 10px;
+  }
+
+  .contact-form {
+    padding: 20px;
+  }
+}
